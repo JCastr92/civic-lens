@@ -42,6 +42,7 @@
         </ul>
       </nav>
       
+<main id="main">
       <h2>Welcome to Civic Lens</h2>
         <p>We are an independent news organization dedicated to unbiased reporting, investigative journalism, and truth-driven storytelling. At Civic Lens, our mission is to expose the facts, amplify marginalized voices, and shine light on the systems that shape our society.</p>
         <blockquote class="tagline">“We don't follow the narrative. We follow the facts.”</blockquote>
@@ -98,22 +99,41 @@
       <h2>Stay Informed. Stay Empowered.</h2>
        <p>Receive text messages with the news you want to know.</p>
         
-        Name
-        
-        Mobile
-        
-        Notification Preferences
-        
-        Breaking News
-        Politics
-        Weather
-        Sports
-        Entertainment
-        World
-        Financial
-        
-        Subscribe
+      <form action="https://wp.zybooks.com/form-viewer.php" method="POST">
+        <label for="NA">Name</label>
+        <input type="text" name="NA" id="NA">
+
+        <label for="MO">Mobile</label>
+        <input type="tel" name="MO" id="MO">
+
+        <legend>Notification Preferences</legend>
+
+        <input type="checkbox" name="notif-pref" id="break">
+        <label for="break">Breaking News</label>
+
+        <input type="checkbox" name="notif-pref" id="politics">
+        <label for="politics">Politics</label>
+
+        <input type="checkbox" name="notif-pref" id="weather">
+        <label for="weather">Weather</label>
+
+        <input type="checkbox" name="notif-pref" id="sports">
+        <label for="sports">Sports</label>
+
+        <input type="checkbox" name="notif-pref" id="ent">
+        <label for="ent">Entertainment</label>
+
+        <input type="checkbox" name="notif-pref" id="hello">
+        <label for="hello">World</label>
+
+        <input type="checkbox" name="notif-pref" id="fin">
+        <label for="fin">Financial</label>
+
+        <input type="submit" name="sub" id="sub" value="Subscribe">
+      </form>
+</main>
       
+    <footer>
       Follow Us
         Twitter/X
         Instagram
@@ -122,6 +142,7 @@
         LinkedIn
         
         &copy; 2025 Civic Lens. All rights reserved.
+    </footer>
         
         
   <script>
