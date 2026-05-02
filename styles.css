@@ -103,8 +103,33 @@ body.dark-mode {
 
 /* ///ADD/// Navigation Styles */
 
+header{
+  background-color: var(--blue-bulletin);
+  color:#ddd;
+
+}
+
+header #mobile-nav #menu{
+  display: block;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  background-color: var(--news-flash);
+  color: white;
+  border: none;
+}
+
+h1{
+  font-family: var(--font-heading);
+} 
+
+
 /* ///ADD/// Global Layout Styles */
 
+footer{
+  background-color: var(--blue-bulletin);
+  color: white;
+}
 
 /* ///ADD/// Global Text Styles */
 
