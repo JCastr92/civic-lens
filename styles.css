@@ -109,7 +109,7 @@ header{
 
 }
 
-header #mobile-nav #menu{
+nav.mobile-nav .menu li a{
   display: block;
   padding: 10px 20px;
   text-align: center;
@@ -132,6 +132,15 @@ body{
 footer{
   background-color: var(--blue-bulletin);
   color: white;
+}
+
+#articles section{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repat(4, 150px);
+  gap: 15px;
+  border: 2px;
+  border-color: black;
 }
 
 /* ///ADD/// Global Text Styles */
