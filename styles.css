@@ -133,7 +133,7 @@ footer{
   color: white;
 }
 
-#articles section{
+#featured-articles section{
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 150px);
@@ -178,5 +178,6 @@ footer{
 
 /* ///ADD///  Feature Query for :has() that checks if the #menu-toggle is checked */
 @supports (selector(:has(*))) {
+
 
 }
