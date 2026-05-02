@@ -110,8 +110,7 @@ header{
 }
 
 nav.mobile-nav .menu li a{
-  display: block;
-  padding: 10px 20px;
+  display: grid;
   text-align: center;
   text-decoration: none;
   background-color: var(--news-flash);
